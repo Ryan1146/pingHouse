@@ -14,7 +14,7 @@ development:
   database: pingHouse_development
   pool: 5
   username: root
-  password:
+  password: ryan1146
   socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -24,9 +24,9 @@ test:
   adapter: mysql2
   encoding: utf8
   database: pingHouse_test
-  pool: 5
+  pool: 5 
   username: root
-  password:
+  password: ryan1146
   socket: /tmp/mysql.sock
 
 production:
@@ -35,5 +35,5 @@ production:
   database: pingHouse_production
   pool: 5
   username: root
-  password:
+  password: ryan1146
   socket: /tmp/mysql.sock

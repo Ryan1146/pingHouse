@@ -31,8 +31,8 @@ gem 'jquery-turbolinks'
 
 gem 'jbuilder', '~> 1.2'
 
-gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: 'master'
-
+#gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch: 'master'
+gem 'bootstrap-sass', '~> 3.1.0'
 
 
 gem 'devise', '~> 3.1.1'
@@ -46,6 +46,8 @@ gem 'masonry-rails', '~>0.2.0'
 gem 'will_paginate', '~> 3.0'
 
 gem 'will_paginate-bootstrap'
+
+gem "font-awesome-rails"
 
 
 

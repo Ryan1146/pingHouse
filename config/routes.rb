@@ -1,4 +1,15 @@
 PingHouse::Application.routes.draw do
+  
+  resources :pages
+
+  root "pages#home"
+  get "concept" => "pages#concept"
+  get "location" => "pages#location"
+  get "calendar" => "pages#calendar"
+  get "food" => "pages#food"
+  get "space" => "pages#space"
+  get "activity" => "pages#activity"
+  get "rent" => "pages#rent"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
